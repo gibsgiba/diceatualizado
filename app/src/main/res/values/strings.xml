@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppDice2</string>
+    <string name="txtroll">Girar</string>
+    <string name="btnrolar">Rolar</string>
+    <string name="txtsorte">Digite o número da sorte:</string>
+</resources>

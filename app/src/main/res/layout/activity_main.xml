@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        tools:srcCompat="@drawable/dice_1" />
+
+    <TextView
+        android:id="@+id/txtroll"
+        android:text="@string/txtroll"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtroll" />
+
+    <TextView
+        android:id="@+id/btnrolar"
+        android:text="@string/txtsorte"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/txtsorte"
+        android:text="@string/txtsorte"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
